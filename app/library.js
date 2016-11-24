@@ -21,7 +21,7 @@ module.exports = {
 	{
 		var a = Math.min.apply(null, arr);
           
-		var b = math.max.apply(null, arr);
+		var b = Math.max.apply(null, arr);
 				
 		return [a, b];
 	},
