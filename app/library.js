@@ -22,8 +22,15 @@ module.exports = {
 		var a = Math.min.apply(null, arr);
           
 		var b = Math.max.apply(null, arr);
-				
-		return [a, b];
+		
+		if (a == b)
+		{
+			return [a];
+		}
+		else
+		{
+			return [a, b];
+		}
 	},
 	
 	fizzBuzz:function(number)
