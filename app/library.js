@@ -18,10 +18,11 @@ module.exports = {
 	},
 	
 	findMinMax:function(arr)
-	{
-		var a = Math.min(arr);
-          
-		var b = Math.max(arr);
+	{	
+		arr.sort(function(a,b){return a-b});
+		var i = arr.length - 1;
+		var a = arr[0];//min
+		var b = arr[i];//max
 		
 		if (a == b)
 		{
