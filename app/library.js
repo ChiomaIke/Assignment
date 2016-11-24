@@ -19,9 +19,9 @@ module.exports = {
 	
 	findMinMax:function(arr)
 	{
-		var a = Math.min.apply(null, arr);
+		var a = Math.min(arr);
           
-		var b = Math.max.apply(null, arr);
+		var b = Math.max(arr);
 		
 		if (a == b)
 		{
