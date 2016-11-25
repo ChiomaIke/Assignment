@@ -127,7 +127,10 @@ var myApp = require('../app/library.js');
     expect(myApp.fizzBuzz(101)).toBe(101);
   });
   
+  it("should return 107 since its indivisible by 3 and 5", function() {
+    expect(myApp.fizzBuzz(107)).toBe(107);
   });
   
-
+  });
+  
 })();
